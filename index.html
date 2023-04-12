@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Discover Our Latest Products</h2>
+        <p>Shop now for the best deals on our wide range of products. From electronics to fashion, we have something for everyone.</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <ul>
+            <li>
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex vel ligula vulputate dignissim vel id ligula.</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </li>
+            <li>
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex vel ligula vulputate dignissim vel id ligula.</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </li>
+            <li>
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex vel ligula vulputate dignissim vel id ligula.</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex vel ligula vulputate dignissim vel id ligula.</p>
+        <p>For any inquiries, please contact us at <a href="mailto:info@mystore.com">info@mystore.com</a></p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 My Store. All rights reserved. | Website by [Your Name]</p>
+    </footer>
+</body>
+</html>
